@@ -1,4 +1,4 @@
-# New Tabee
+# Tabee
 
 A minimal, customizable **New Tab browser extension** focused on calm visuals, fast search, and distraction-free design.
 
