@@ -1,16 +1,106 @@
-# React + Vite
+# New Tabee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, customizable **New Tab browser extension** focused on calm visuals, fast search, and distraction-free design.
 
-Currently, two official plugins are available:
+This project replaces the default new tab page with a clean interface centered around time, focus, and personal aesthetics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Default New Tab
+Clean and minimal view with the clock as the main focus.
 
-## Expanding the ESLint configuration
+![Default New Tab](screenshots/hero.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Instant Search
+Start typing anywhere to search. No buttons, no clicks.
+
+![Instant Search](screenshots/search.png)
+
+---
+
+### Clock Customization
+Font selection, layout options, and wireframe styles.
+
+![Clock Settings](screenshots/settings.png)
+
+---
+
+### custom wallpaper
+any form of images and videos can be used as wallpapers.
+jpeg,png,mp4,....
+
+![Minute Accent](screenshots/wallpaper.png)
+
+---
+
+### others
+below screenshots shows customized new tabs with this extension
+
+![demo](screenshots/demo3.png)
+![demo](screenshots/demo2.png)
+![demo](screenshots/demo1.png)
+
+
+---
+
+## ✨ Features
+
+- **Instant Search**
+  - Start typing anywhere to search
+  - No buttons, no clicks
+
+- **Custom Clock**
+  - Multiple font options
+  - Horizontal and vertical layouts
+  - Outline (wireframe) and solid styles
+  - Optional day, date, and AM/PM display
+
+- **Color Control**
+  - Single color by default (applies to everything)
+  - Optional minute accent color
+  - One color picker with context-based editing
+  - Day, date, and AM/PM always follow hours color
+
+- **Focus Mode**
+  - Removes wallpaper
+  - Black & white minimal view
+  - Displays only the clock
+  - Designed for distraction-free sessions
+
+- **Wallpaper Support**
+  - Static images
+  - Live wallpapers (MP4 / WEBM)
+  - Blur and opacity controls
+
+- **Performance Friendly**
+  - Minimal UI
+  - No unnecessary widgets
+  - Lightweight by design
+
+---
+
+## 🧠 Design Philosophy
+
+- Defaults should look good without customization
+- Customization should be optional
+- No visual clutter
+- Keyboard-first interaction
+- Calm over productivity noise
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite (v4)**
+- **Tailwind CSS**
+- JavaScript
+- HTML5
+- Browser Extension APIs
+
+---
+
